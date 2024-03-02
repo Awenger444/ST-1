@@ -2,7 +2,7 @@
 
 #include <gtest/gtest.h>
 #include <cstdint>
-#include "C:\Users\chand\gitclones\Awenger444\ST-1_Lab\ST-1\include\alg.h"
+#include "..\include\alg.h"
 
 TEST(checkPrimeTests, smallOne) {
     EXPECT_TRUE(checkPrime(19));
