@@ -2,7 +2,7 @@
 
 #include <gtest/gtest.h>
 #include <cstdint>
-#include "..\include\alg.h"
+#include "alg.h"
 
 TEST(checkPrimeTests, smallOne) {
     EXPECT_TRUE(checkPrime(19));
